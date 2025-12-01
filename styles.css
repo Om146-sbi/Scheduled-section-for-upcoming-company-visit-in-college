@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e0f7fa; /* changed background color to a light cyan */
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+}
+
+.schedule-section {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+}
+
+.schedule-section h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #0b3d91;
+}
+
+.schedule-card {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #e3f2fd;
+    transition: box-shadow 0.3s ease;
+}
+
+.schedule-card:hover {
+    box-shadow: 0 6px 12px rgba(11, 61, 145, 0.25);
+}
+
+.company-info h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #0b3d91;
+}
+
+.company-info p {
+    margin: 0.25rem 0;
+}
+
+.notes {
+    margin-top: 0.75rem;
+    font-style: italic;
+    color: #555;
+}
